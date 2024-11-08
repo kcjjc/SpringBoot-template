@@ -8,4 +8,5 @@ It contains dependencies
 --mysql-connector-java  
 --mybatis-spring-boot-starter version:2.1.4  
 --lombok  
+--springboot version：2.3.12.RELEASE  
 --etc
