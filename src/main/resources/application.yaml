@@ -3,3 +3,12 @@ server:
 mybatis:
   mapper-locations: classpath:mappers/*xml
   type-aliases-package: org.ckj.mytemplate.mybatis.entity
+spring:
+  datasource:
+    host: localhost
+    port: 3306
+    database: demo
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${spring.datasource.host}:${spring.datasource.port}/${spring.datasource.database}?serverTimezone=GMT%2b8
+    username: root
+    password: 123456
